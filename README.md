@@ -78,7 +78,7 @@ Features
 Yeah, it's got features. All the ones you actually need.
 
 Feature	Example:
-
+```
 Parsing	JSON doc = JSON::parse(str); or auto doc = R"([])"_json;
 Serialization	std::string s = doc.dump_pretty(2); or doc.dump_minified();
 Object Access	doc["user"]["name"] = "John";
@@ -89,6 +89,7 @@ Safe Access	int age = doc["age"].as_int(18);
 Path Operations	doc.set_path("user.address.city", "New York"); auto city = doc.at_path(...);
 Iteration	for (auto& item : doc["items"]) { ... } for (auto it : doc["user"]) { ... }
 File I/O	doc.to_file("out.json"); JSON loaded = JSON::from_file("in.json");
+```
 Unicode Support	Correctly parses and serializes UTF-8, including surrogate pairs (emojis).
 Seriously, That's It.
 
