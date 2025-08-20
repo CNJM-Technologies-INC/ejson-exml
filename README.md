@@ -65,8 +65,6 @@ Other libraries might force you into some bizarre, verbose "builder" pattern. Th
 
 This is how you do it:
 ```
-IGNORE_WHEN_COPYING_START
-IGNORE_WHEN_COPYING_END
 // DO THIS: Unambiguous and clear.
 JSON obj = JSON_OBJECT({{"key", "value"}});
 JSON arr = JSON_ARRAY({1, 2, 3});
