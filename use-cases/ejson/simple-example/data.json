@@ -1,0 +1,15 @@
+{
+  "active": true,
+  "age": 30,
+  "name": "John",
+  "scores": [
+    85,
+    90,
+    78
+  ],
+  "user": {
+    "profile": {
+      "name": "Jane"
+    }
+  }
+}
